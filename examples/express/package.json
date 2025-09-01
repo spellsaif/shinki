@@ -1,0 +1,15 @@
+{
+  "name": "@shinki/example-express",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@shinki/core": "workspace:*",
+    "@shinki/http": "workspace:*",
+    "@shinki/provider-github": "workspace:*",
+    "express": "^4.19.2"
+  }
+}

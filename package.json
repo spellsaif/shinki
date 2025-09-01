@@ -1,0 +1,17 @@
+{
+  "name": "shinki",
+  "private": "true",
+  "scripts": {
+    "build": "pnpm -r --filter ./packages... run build",
+    "typecheck": "pnpm -r --filter ./packages... run typecheck",
+    "dev:express": "pnpm --filter @shinki/example-express dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.5.0"
+  }
+}
